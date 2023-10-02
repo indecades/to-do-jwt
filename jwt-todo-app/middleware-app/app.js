@@ -22,7 +22,7 @@ app.use('/', todosController);
 app.use('/', usersController);
 
 const url =
-	"mongodb+srv://chellamans:Chellamans2004@cluster.yk51olc.mongodb.net/?retryWrites=true&w=majority";
+	"mongodb+srv://(add mongodb link).mongodb.net/?retryWrites=true&w=majority";
 // connects to database
 mongoose.connect(url, {
 	useNewUrlParser: true,
